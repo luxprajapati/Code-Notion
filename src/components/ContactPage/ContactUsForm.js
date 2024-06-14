@@ -7,6 +7,7 @@ import "../ContactPage/ContactusForm.css";
 
 const ContactUsForm = () => {
   const [loading, setLoading] = useState(false);
+  console.log("loading", loading);
   const {
     register,
     handleSubmit,
@@ -23,7 +24,7 @@ const ContactUsForm = () => {
         contactusEndpoint.CONTACT_US_API,
         data
       );
-      // console.log("Contact Form Submission Response:- ", response);
+      console.log("Contact Form Submission Response:- ", response);
       setLoading(false);
     } catch (err) {
       console.log(err.message);
