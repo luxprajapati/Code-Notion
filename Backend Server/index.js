@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://codenotion-luxprajapati.netlify.app",
+    origin: "https://codenotion-lux.netlify.app",
     credentials: true,
   })
 );

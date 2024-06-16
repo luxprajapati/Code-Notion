@@ -27,7 +27,7 @@ exports.resetPasswordToken = async (req, res) => {
     );
     // console.log("DETAILS", updatedDetails);
 
-    const url = `http://codenotion-luxprajapati.netlify.app/update-password/${token}`;
+    const url = `http://codenotion-lux.netlify.app/update-password/${token}`;
 
     await mailSender(
       email,
