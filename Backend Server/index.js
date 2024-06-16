@@ -23,10 +23,11 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://code-notion-ot9apjxkf-lux-prajapati.vercel.app",
+    origin: "https://codenotion-luxprajapati.netlify.app",
     credentials: true,
   })
 );
+// https://code-notion-ot9apjxkf-lux-prajapati.vercel.app
 
 app.use(
   fileUpload({
