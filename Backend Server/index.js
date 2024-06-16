@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://code-notion-ot9apjxkf-lux-prajapati.vercel.app",
+    origin: "https://code-notion-lux.vercel.app/",
     credentials: true,
   })
 );
