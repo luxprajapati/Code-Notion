@@ -150,7 +150,7 @@ const Navbar = () => {
           className="mr-4 md:hidden"
           onClick={() =>
             alert(
-              "We are working on this website to make more user friendly for mobile users. Please visit us on desktop for better experience. Thank you!"
+              "Please visit us on desktop for better experience. Thank you!"
             )
           }
         >
