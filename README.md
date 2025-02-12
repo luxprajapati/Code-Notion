@@ -83,7 +83,7 @@ Below is a high-level diagram that illustrates the architecture of the CodeNotio
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/username/repo.git`
+1. Clone the repository: `git clone https://github.com/luxprajapati/Code-Notion.git`
 2. Navigate to the project directory: `cd edtech`
 3. Install dependencies: `npm install`
 
